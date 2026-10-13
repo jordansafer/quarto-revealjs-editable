@@ -1,9 +1,10 @@
-# X-PLORE presentation editor
+# quarto-revealjs-editable
 
-This repository contains the Quarto Reveal `editable` extension and its local
-save server. The extension started from
-[`emilhvitfeldt/quarto-revealjs-editable` v9.0.0](https://github.com/EmilHvitfeldt/quarto-revealjs-editable);
-[`LOCAL_CHANGES.md`](LOCAL_CHANGES.md) records the changes here.
+This is an independent continuation of the Quarto Reveal `editable` extension
+from [Emil Hvitfeldt's `quarto-revealjs-editable` v9.0.0](https://github.com/EmilHvitfeldt/quarto-revealjs-editable).
+It adds a project-independent local save server, source-backed editing, and
+other editor improvements. It is not the upstream repository or a GitHub fork.
+[`LOCAL_CHANGES.md`](LOCAL_CHANGES.md) records the changes from upstream.
 
 Install the runtime extension into any Quarto project with
 `python install.py /path/to/project`. It copies the package under
